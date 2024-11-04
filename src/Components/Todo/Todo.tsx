@@ -16,7 +16,7 @@ const Todo: React.FC<Props> = ({ todo, todos, setTodos }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    inputRef.current?.focus();
+    inputRef.current?.focus;
   }, [edit]);
 
   //Handling Mark as done

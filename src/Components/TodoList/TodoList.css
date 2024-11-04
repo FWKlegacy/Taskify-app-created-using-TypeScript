@@ -5,6 +5,14 @@
     flex-wrap: wrap;
 }
 
+.container{
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 @media (max-width:700){
     .todo-list{
         width: 95%;
