@@ -1,0 +1,21 @@
+.todo-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+@media (max-width:700){
+    .todo-list{
+        width: 95%;
+    }
+
+}
+
+@media (max-width:500){
+    .todo-list{
+        width: 50%;
+        height: 40px;
+    }
+ 
+ }
